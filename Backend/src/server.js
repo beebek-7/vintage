@@ -16,7 +16,7 @@ const app = express();
 
 // CORS configuration
 app.use(cors({
-  origin: 'https://syncddoju.app', // Yo"""""""""""""""""""""""""""""""""""""""""""""u'll update this with your actual Netlify URL
+  origin: 'https://syncd-backend.onrender.com', // Yo"""""""""""""""""""""""""""""""""""""""""""""u'll update this with your actual Netlify URL
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
